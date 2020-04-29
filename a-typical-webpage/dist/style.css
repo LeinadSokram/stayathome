@@ -1,0 +1,35 @@
+header {
+  background-color: purple;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  background-color: cyan;
+  height: 30px;
+  margin: 10px;
+}
+
+.small {
+  width: 100px;
+}
+
+.big {
+  width: 150px;
+}
+
+main {
+  height: 500px;
+  display: flex;
+}
+
+.home {
+  background-color: yellow;
+  flex-grow: 3;
+}
+
+.side {
+  background-color: lime;
+  flex-grow: 1;
+}

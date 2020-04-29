@@ -1,0 +1,49 @@
+header {
+  background-color: purple;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.button {
+  background-color: cyan;
+  height: 30px;
+  margin: 10px;
+}
+
+.small {
+  width: 100px;
+}
+
+.big {
+  width: 150px;
+}
+
+#first {
+  margin-left: 100px;
+}
+
+main {
+  height: 500px;
+  display: flex;
+  margin: 80px 100px 10px;
+}
+
+.home {
+  background-color: yellow;
+  flex-grow: 3;
+}
+
+.side {
+  background-color: lime;
+  flex-grow: 1;
+}
+
+footer {
+  background-color: lightgrey;
+  height: 80px;
+  margin: 0 100px;
+}
